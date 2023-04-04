@@ -1,0 +1,56 @@
+/* Write your code here. */
+.app-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.letters-card {
+  height: 60px;
+  width: 200px;
+  background-color: white;
+  color: #219a6f;
+  font-family: 'Roboto';
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 12px;
+  border: 1px, solid;
+}
+.heading {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.label-text {
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+.input-text {
+  color: white;
+  height: 35px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 800;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  background-color: transparent;
+}
